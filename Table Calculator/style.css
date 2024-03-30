@@ -1,0 +1,28 @@
+html {
+    box-sizing: border-box;
+}
+body {
+    background-color: skyblue;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96vh;
+    flex-direction: column;
+}
+
+h1 {
+    background-color: lavender;
+    padding: 10px 100px;
+    border-radius: 50px;
+    border: 3px solid black;
+
+}
+
+div#tableSyntax {
+    height: 70vh;
+    width: 25%;
+    background-color: lavender;
+    border: 3px solid black;
+    border-radius: 20px;
+}
