@@ -7,6 +7,31 @@
 </head>
 
 <body>
+    <h1>Product Info</h1>
+    <form action="" id="productInfo">
+
+        <label for="productName">Product Name:</label>
+        <input type="text" id="productName" maxlength="20" minlength="5" required > <br>
+
+        <label for="productDetail">Product Details:</label>
+        <input type="text" id="productDetail" maxlength="20" minlength="5" required > <br>
+
+        <label for="productPrice">Product Price:</label>
+        <input type="number" id="productPrice" maxlength="10" minlength="2" required > <br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <div class="printInfo">
+        <h2>Reciept:</h2>
+        <p id="name"></p>
+        <p id="detail"></p>
+        <p id="price"></p>
+    </div>
+
+
+
+
     <script type="module" src="./index.js"></script>
 </body>
 </html>
